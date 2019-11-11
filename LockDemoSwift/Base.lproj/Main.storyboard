@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="t4d-oA-ul8">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LockDemoSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="IDR-Z5-tvB">
+                                <rect key="frame" x="102" y="238" width="210" height="420"/>
+                                <subviews>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eXD-Zr-yeB">
+                                        <rect key="frame" x="0.0" y="0.0" width="210" height="60"/>
+                                        <state key="normal" title="1"/>
+                                        <connections>
+                                            <action selector="touchAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ldX-8W-ZHo"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G3U-3n-b7V">
+                                        <rect key="frame" x="0.0" y="60" width="210" height="60"/>
+                                        <state key="normal" title="2"/>
+                                        <connections>
+                                            <action selector="touchAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ht9-FI-K03"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1iu-Vb-ady">
+                                        <rect key="frame" x="0.0" y="120" width="210" height="60"/>
+                                        <state key="normal" title="3"/>
+                                        <connections>
+                                            <action selector="touchAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PAc-BL-sDW"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aUM-Cy-A8y">
+                                        <rect key="frame" x="0.0" y="180" width="210" height="60"/>
+                                        <state key="normal" title="4"/>
+                                        <connections>
+                                            <action selector="touchAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Tfx-cN-2e3"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ocs-nA-Pdd">
+                                        <rect key="frame" x="0.0" y="240" width="210" height="60"/>
+                                        <state key="normal" title="5"/>
+                                        <connections>
+                                            <action selector="touchAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cdH-d0-jph"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ToV-5D-Jwx">
+                                        <rect key="frame" x="0.0" y="300" width="210" height="60"/>
+                                        <state key="normal" title="6"/>
+                                        <connections>
+                                            <action selector="touchAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oFc-PY-qfZ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7sy-Fb-vR8">
+                                        <rect key="frame" x="0.0" y="360" width="210" height="60"/>
+                                        <state key="normal" title="7"/>
+                                        <connections>
+                                            <action selector="touchAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oBd-EV-kPd"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="IDR-Z5-tvB" secondAttribute="height" multiplier="1:2" id="Qbh-wf-v67"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="IDR-Z5-tvB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="150" id="EYj-9s-ESQ"/>
+                            <constraint firstItem="IDR-Z5-tvB" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="HUX-gX-gQT"/>
+                            <constraint firstItem="IDR-Z5-tvB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fYP-yx-sL0"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="PBd-8W-iMp"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="600" y="226"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="RNt-xU-iSE">
+            <objects>
+                <navigationController id="t4d-oA-ul8" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="h0J-Oe-jUT">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="hHp-3J-0jb"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cvv-hK-WtK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-236" y="227"/>
+        </scene>
+    </scenes>
+</document>

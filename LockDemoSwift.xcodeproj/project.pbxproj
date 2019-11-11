@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0D6ABAC2361D0E3008BFA3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D6ABAB2361D0E3008BFA3E /* AppDelegate.swift */; };
+		B0D6ABAE2361D0E3008BFA3E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D6ABAD2361D0E3008BFA3E /* SceneDelegate.swift */; };
+		B0D6ABB02361D0E3008BFA3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D6ABAF2361D0E3008BFA3E /* ViewController.swift */; };
+		B0D6ABB32361D0E3008BFA3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0D6ABB12361D0E3008BFA3E /* Main.storyboard */; };
+		B0D6ABB52361D0E5008BFA3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0D6ABB42361D0E5008BFA3E /* Assets.xcassets */; };
+		B0D6ABB82361D0E5008BFA3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0D6ABB62361D0E5008BFA3E /* LaunchScreen.storyboard */; };
+		B0D6ABC82361D423008BFA3E /* NSLockController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D6ABC02361D423008BFA3E /* NSLockController.swift */; };
+		B0D6ABC92361D423008BFA3E /* NSConditionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D6ABC12361D423008BFA3E /* NSConditionController.swift */; };
+		B0D6ABCA2361D423008BFA3E /* NSRecursiveLockCon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D6ABC22361D423008BFA3E /* NSRecursiveLockCon.swift */; };
+		B0D6ABCB2361D423008BFA3E /* NSConditionLockCon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D6ABC32361D423008BFA3E /* NSConditionLockCon.swift */; };
+		B0D6ABCC2361D423008BFA3E /* SemaphoreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D6ABC42361D423008BFA3E /* SemaphoreController.swift */; };
+		B0D6ABCD2361D423008BFA3E /* POSIXController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D6ABC52361D423008BFA3E /* POSIXController.swift */; };
+		B0D6ABCE2361D423008BFA3E /* SynchronizedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D6ABC62361D423008BFA3E /* SynchronizedController.swift */; };
+		B0D6ABCF2361D423008BFA3E /* ThreadLockController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D6ABC72361D423008BFA3E /* ThreadLockController.swift */; };
+		B0D6ABD12361D4A9008BFA3E /* TYLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D6ABD02361D4A9008BFA3E /* TYLog.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B0D6ABA82361D0E3008BFA3E /* LockDemoSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LockDemoSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0D6ABAB2361D0E3008BFA3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B0D6ABAD2361D0E3008BFA3E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B0D6ABAF2361D0E3008BFA3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B0D6ABB22361D0E3008BFA3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0D6ABB42361D0E5008BFA3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0D6ABB72361D0E5008BFA3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0D6ABB92361D0E5008BFA3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0D6ABC02361D423008BFA3E /* NSLockController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSLockController.swift; sourceTree = "<group>"; };
+		B0D6ABC12361D423008BFA3E /* NSConditionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSConditionController.swift; sourceTree = "<group>"; };
+		B0D6ABC22361D423008BFA3E /* NSRecursiveLockCon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSRecursiveLockCon.swift; sourceTree = "<group>"; };
+		B0D6ABC32361D423008BFA3E /* NSConditionLockCon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSConditionLockCon.swift; sourceTree = "<group>"; };
+		B0D6ABC42361D423008BFA3E /* SemaphoreController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SemaphoreController.swift; sourceTree = "<group>"; };
+		B0D6ABC52361D423008BFA3E /* POSIXController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = POSIXController.swift; sourceTree = "<group>"; };
+		B0D6ABC62361D423008BFA3E /* SynchronizedController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SynchronizedController.swift; sourceTree = "<group>"; };
+		B0D6ABC72361D423008BFA3E /* ThreadLockController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreadLockController.swift; sourceTree = "<group>"; };
+		B0D6ABD02361D4A9008BFA3E /* TYLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYLog.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0D6ABA52361D0E3008BFA3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0D6AB9F2361D0E3008BFA3E = {
+			isa = PBXGroup;
+			children = (
+				B0D6ABAA2361D0E3008BFA3E /* LockDemoSwift */,
+				B0D6ABA92361D0E3008BFA3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0D6ABA92361D0E3008BFA3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0D6ABA82361D0E3008BFA3E /* LockDemoSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0D6ABAA2361D0E3008BFA3E /* LockDemoSwift */ = {
+			isa = PBXGroup;
+			children = (
+				B0D6ABBF2361D381008BFA3E /* SwiftLock */,
+				B0D6ABAB2361D0E3008BFA3E /* AppDelegate.swift */,
+				B0D6ABAD2361D0E3008BFA3E /* SceneDelegate.swift */,
+				B0D6ABAF2361D0E3008BFA3E /* ViewController.swift */,
+				B0D6ABC72361D423008BFA3E /* ThreadLockController.swift */,
+				B0D6ABD02361D4A9008BFA3E /* TYLog.swift */,
+				B0D6ABB12361D0E3008BFA3E /* Main.storyboard */,
+				B0D6ABB42361D0E5008BFA3E /* Assets.xcassets */,
+				B0D6ABB62361D0E5008BFA3E /* LaunchScreen.storyboard */,
+				B0D6ABB92361D0E5008BFA3E /* Info.plist */,
+			);
+			path = LockDemoSwift;
+			sourceTree = "<group>";
+		};
+		B0D6ABBF2361D381008BFA3E /* SwiftLock */ = {
+			isa = PBXGroup;
+			children = (
+				B0D6ABC12361D423008BFA3E /* NSConditionController.swift */,
+				B0D6ABC32361D423008BFA3E /* NSConditionLockCon.swift */,
+				B0D6ABC02361D423008BFA3E /* NSLockController.swift */,
+				B0D6ABC22361D423008BFA3E /* NSRecursiveLockCon.swift */,
+				B0D6ABC52361D423008BFA3E /* POSIXController.swift */,
+				B0D6ABC42361D423008BFA3E /* SemaphoreController.swift */,
+				B0D6ABC62361D423008BFA3E /* SynchronizedController.swift */,
+			);
+			path = SwiftLock;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0D6ABA72361D0E3008BFA3E /* LockDemoSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0D6ABBC2361D0E5008BFA3E /* Build configuration list for PBXNativeTarget "LockDemoSwift" */;
+			buildPhases = (
+				B0D6ABA42361D0E3008BFA3E /* Sources */,
+				B0D6ABA52361D0E3008BFA3E /* Frameworks */,
+				B0D6ABA62361D0E3008BFA3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LockDemoSwift;
+			productName = LockDemoSwift;
+			productReference = B0D6ABA82361D0E3008BFA3E /* LockDemoSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0D6ABA02361D0E3008BFA3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "KMF-Engineering";
+				TargetAttributes = {
+					B0D6ABA72361D0E3008BFA3E = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = B0D6ABA32361D0E3008BFA3E /* Build configuration list for PBXProject "LockDemoSwift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0D6AB9F2361D0E3008BFA3E;
+			productRefGroup = B0D6ABA92361D0E3008BFA3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0D6ABA72361D0E3008BFA3E /* LockDemoSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0D6ABA62361D0E3008BFA3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0D6ABB82361D0E5008BFA3E /* LaunchScreen.storyboard in Resources */,
+				B0D6ABB52361D0E5008BFA3E /* Assets.xcassets in Resources */,
+				B0D6ABB32361D0E3008BFA3E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0D6ABA42361D0E3008BFA3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0D6ABCB2361D423008BFA3E /* NSConditionLockCon.swift in Sources */,
+				B0D6ABC92361D423008BFA3E /* NSConditionController.swift in Sources */,
+				B0D6ABCF2361D423008BFA3E /* ThreadLockController.swift in Sources */,
+				B0D6ABCA2361D423008BFA3E /* NSRecursiveLockCon.swift in Sources */,
+				B0D6ABB02361D0E3008BFA3E /* ViewController.swift in Sources */,
+				B0D6ABD12361D4A9008BFA3E /* TYLog.swift in Sources */,
+				B0D6ABCC2361D423008BFA3E /* SemaphoreController.swift in Sources */,
+				B0D6ABCE2361D423008BFA3E /* SynchronizedController.swift in Sources */,
+				B0D6ABCD2361D423008BFA3E /* POSIXController.swift in Sources */,
+				B0D6ABAC2361D0E3008BFA3E /* AppDelegate.swift in Sources */,
+				B0D6ABAE2361D0E3008BFA3E /* SceneDelegate.swift in Sources */,
+				B0D6ABC82361D423008BFA3E /* NSLockController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B0D6ABB12361D0E3008BFA3E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0D6ABB22361D0E3008BFA3E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B0D6ABB62361D0E5008BFA3E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0D6ABB72361D0E5008BFA3E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0D6ABBA2361D0E5008BFA3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B0D6ABBB2361D0E5008BFA3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0D6ABBD2361D0E5008BFA3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZT38DY35DB;
+				INFOPLIST_FILE = LockDemoSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.enhance.LockDemoSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0D6ABBE2361D0E5008BFA3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZT38DY35DB;
+				INFOPLIST_FILE = LockDemoSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.enhance.LockDemoSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0D6ABA32361D0E3008BFA3E /* Build configuration list for PBXProject "LockDemoSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0D6ABBA2361D0E5008BFA3E /* Debug */,
+				B0D6ABBB2361D0E5008BFA3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0D6ABBC2361D0E5008BFA3E /* Build configuration list for PBXNativeTarget "LockDemoSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0D6ABBD2361D0E5008BFA3E /* Debug */,
+				B0D6ABBE2361D0E5008BFA3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0D6ABA02361D0E3008BFA3E /* Project object */;
+}
